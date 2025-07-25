@@ -1,0 +1,49 @@
+{
+  "stocks": [
+    {
+      "name": "RELIANCE.NS",
+      "purchase_price": 2500,
+      "quantity": 10,
+      "sector": "Energy",
+      "cmp": 1391.7,
+      "pe_ratio": 0,
+      "earnings": 0,
+      "investment": 25000,
+      "present_value": 13917,
+      "gain_loss": -11083,
+      "portfolio_percentage": 58.82352941176471
+    },
+    {
+      "name": "TCS.NS",
+      "purchase_price": 3500,
+      "quantity": 5,
+      "sector": "IT",
+      "cmp": 3135.8,
+      "pe_ratio": 0,
+      "earnings": 0,
+      "investment": 17500,
+      "present_value": 15679,
+      "gain_loss": -1821,
+      "portfolio_percentage": 41.17647058823529
+    }
+  ],
+  "sectors": {
+    "Energy": {
+      "investment": 25000,
+      "present_value": 13917,
+      "stocks": [
+        "RELIANCE.NS"
+      ],
+      "gain_loss": -11083
+    },
+    "IT": {
+      "investment": 17500,
+      "present_value": 15679,
+      "stocks": [
+        "TCS.NS"
+      ],
+      "gain_loss": -1821
+    }
+  },
+  "last_updated": "2025-07-25T17:05:01.374Z"
+}
